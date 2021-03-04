@@ -1,8 +1,8 @@
 .Band {
     width: calc(100% - 80px);
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2em;
-    margin: auto;
-    padding: 2em;
+    grid-gap: 40px;
+    padding: 1em;
 }

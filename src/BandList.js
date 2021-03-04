@@ -1,4 +1,5 @@
 import React from 'react';
+import './BandList.css';
 
 function BandList(props) {
     const {band_name, formed, origin, fans} = props;

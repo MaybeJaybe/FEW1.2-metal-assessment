@@ -1,4 +1,5 @@
 import React from 'react';
+import './Like.css';
 
 class Like extends React.Component {
     state = {count: 0}
@@ -13,7 +14,7 @@ class Like extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className="Like">
                 <div>Likes: {this.state.count}</div>
                 <button onClick={this.incrementCounter.bind(this)}><g-emoji class="g-emoji" alias="thumbsup" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji></button>
                 <button onClick={this.decrementCounter.bind(this)}><g-emoji class="g-emoji" alias="thumbsdown" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44e.png">👎</g-emoji></button>
