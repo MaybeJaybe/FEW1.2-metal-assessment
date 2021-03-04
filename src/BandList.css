@@ -1,4 +1,4 @@
-.Band {
+.BandList {
     width: calc(100% - 80px);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
