@@ -1,0 +1,9 @@
+.Metal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+.g-emoji {
+    padding: .5em;
+}

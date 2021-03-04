@@ -6,9 +6,9 @@ function BandList(props) {
     return (
         <div className='BandList'>
             <h3>{band_name}</h3>
-            <div>Formed: {formed}</div>
-            <div>{origin}</div>
-            <div>Fans: {fans}</div>
+            <p>Formed: {formed}</p>
+            <p>{origin}</p>
+            <p>Fans: {fans}</p>
         </div>
     )
 }
